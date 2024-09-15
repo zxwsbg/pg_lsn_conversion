@@ -1,0 +1,13 @@
+CREATE EXTENSION pg_lsn_conversion;
+SELECT convert_to_dec('3D7/40ABA220');
+ convert_to_dec 
+----------------
+  4223037841952
+(1 row)
+
+SELECT convert_to_lsn(4223037841952);
+ convert_to_lsn 
+----------------
+ 3D7/40ABA220
+(1 row)
+

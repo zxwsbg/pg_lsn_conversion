@@ -1,0 +1,5 @@
+# pg_lsn Conversion
+comment = 'Converting between pg_lsn and decimal.'
+default_version = '1.0'
+module_pathname = '$libdir/pg_lsn_conversion'
+relocatable = true
